@@ -1,5 +1,9 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="DressManager">
+			<method name="ChangeBottom"/>
+			<method name="ChangeTop"/>
+		</type>
 		<type fullname="InGameMenu">
 			<method name="LoadSceneAsynch"/>
 			<method name="LoadSceneAsynch"/>
@@ -106,6 +110,7 @@
 	</assembly>
 	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
 		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>
 			<method name="SetActive"/>

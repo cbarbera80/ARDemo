@@ -5,6 +5,9 @@
 		<type fullname="ARFaceFilterVirtualBackground" preserve="nothing"/>
 		<type fullname="ARFeatheredPlaneMeshVisualizer" preserve="nothing"/>
 		<type fullname="ARShooterManager" preserve="nothing"/>
+		<type fullname="CloneRotation" preserve="nothing"/>
+		<type fullname="DressManager" preserve="nothing"/>
+		<type fullname="DressSelector" preserve="nothing"/>
 		<type fullname="FollowPlayerEffects" preserve="nothing"/>
 		<type fullname="InGameMenu" preserve="nothing"/>
 		<type fullname="MenuManager" preserve="nothing"/>
@@ -12,7 +15,6 @@
 		<type fullname="NNCam.Compositor" preserve="nothing"/>
 		<type fullname="NNCam.ResourceSet" preserve="nothing"/>
 		<type fullname="NNCam.WebcamInput" preserve="nothing"/>
-		<type fullname="OverrideARCameraFacingDirection" preserve="nothing"/>
 		<type fullname="Pickup" preserve="nothing"/>
 		<type fullname="PickupData" preserve="nothing"/>
 		<type fullname="PickupManager" preserve="nothing"/>
@@ -22,6 +24,8 @@
 		<type fullname="PortalInstancer" preserve="nothing"/>
 		<type fullname="PortalSelecter" preserve="nothing"/>
 		<type fullname="PotralMaterials" preserve="nothing"/>
+		<type fullname="Puppet" preserve="nothing"/>
+		<type fullname="PuppetMaster" preserve="nothing"/>
 		<type fullname="QRCodeManager" preserve="nothing"/>
 		<type fullname="StatisticsManager" preserve="nothing"/>
 		<type fullname="TicTacToeCell" preserve="nothing"/>

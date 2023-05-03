@@ -14,28 +14,28 @@
 		F7287E8129D19383008CC5D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7287E8029D19383008CC5D0 /* Assets.xcassets */; };
 		F7287E8429D19383008CC5D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7287E8229D19383008CC5D0 /* LaunchScreen.storyboard */; };
 		F7287E9D29D194B2008CC5D0 /* UnityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7287E9B29D19462008CC5D0 /* UnityHelper.swift */; };
-		F7AF098329EFC168008150B6 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AF098229EFC15A008150B6 /* UnityFramework.framework */; };
-		F7AF098429EFC168008150B6 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F7AF098229EFC15A008150B6 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F73A0E0A2A02A6A8005E217A /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73A0E092A02A694005E217A /* UnityFramework.framework */; };
+		F73A0E0B2A02A6A8005E217A /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F73A0E092A02A694005E217A /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F7AF097D29EFC15A008150B6 /* PBXContainerItemProxy */ = {
+		F73A0E042A02A694005E217A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F7AF097729EFC15A008150B6 /* Unity-iPhone.xcodeproj */;
+			containerPortal = F73A0DFE2A02A694005E217A /* Unity-iPhone.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
 			remoteInfo = "Unity-iPhone";
 		};
-		F7AF097F29EFC15A008150B6 /* PBXContainerItemProxy */ = {
+		F73A0E062A02A694005E217A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F7AF097729EFC15A008150B6 /* Unity-iPhone.xcodeproj */;
+			containerPortal = F73A0DFE2A02A694005E217A /* Unity-iPhone.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 5623C57317FDCB0800090B9E;
 			remoteInfo = "Unity-iPhone Tests";
 		};
-		F7AF098129EFC15A008150B6 /* PBXContainerItemProxy */ = {
+		F73A0E082A02A694005E217A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F7AF097729EFC15A008150B6 /* Unity-iPhone.xcodeproj */;
+			containerPortal = F73A0DFE2A02A694005E217A /* Unity-iPhone.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 9D25AB9D213FB47800354C27;
 			remoteInfo = UnityFramework;
@@ -49,7 +49,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F7AF098429EFC168008150B6 /* UnityFramework.framework in Embed Frameworks */,
+				F73A0E0B2A02A6A8005E217A /* UnityFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,7 +66,7 @@
 		F7287E8329D19383008CC5D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7287E8529D19383008CC5D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7287E9B29D19462008CC5D0 /* UnityHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityHelper.swift; sourceTree = "<group>"; };
-		F7AF097729EFC15A008150B6 /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Unity-iPhone.xcodeproj"; path = "Unity/Unity-iPhone.xcodeproj"; sourceTree = "<group>"; };
+		F73A0DFE2A02A694005E217A /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Unity-iPhone.xcodeproj"; path = "Unity/Unity-iPhone.xcodeproj"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7AF098329EFC168008150B6 /* UnityFramework.framework in Frameworks */,
+				F73A0E0A2A02A6A8005E217A /* UnityFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				F7287E9B29D19462008CC5D0 /* UnityHelper.swift */,
-				F7AF097729EFC15A008150B6 /* Unity-iPhone.xcodeproj */,
 				F7287E7629D19382008CC5D0 /* IQUIIARDemo */,
 				F7287E7529D19382008CC5D0 /* Products */,
 				F7287E9729D1941B008CC5D0 /* Frameworks */,
@@ -103,6 +102,7 @@
 		F7287E7629D19382008CC5D0 /* IQUIIARDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F73A0DFE2A02A694005E217A /* Unity-iPhone.xcodeproj */,
 				F7287E7729D19382008CC5D0 /* AppDelegate.swift */,
 				F7287E7929D19382008CC5D0 /* SceneDelegate.swift */,
 				F7287E7B29D19382008CC5D0 /* ViewController.swift */,
@@ -121,12 +121,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F7AF097829EFC15A008150B6 /* Products */ = {
+		F73A0DFF2A02A694005E217A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7AF097E29EFC15A008150B6 /* ARDesignDemos.app */,
-				F7AF098029EFC15A008150B6 /* Unity-iPhone Tests.xctest */,
-				F7AF098229EFC15A008150B6 /* UnityFramework.framework */,
+				F73A0E052A02A694005E217A /* ARDesignDemos.app */,
+				F73A0E072A02A694005E217A /* Unity-iPhone Tests.xctest */,
+				F73A0E092A02A694005E217A /* UnityFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,8 +180,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = F7AF097829EFC15A008150B6 /* Products */;
-					ProjectRef = F7AF097729EFC15A008150B6 /* Unity-iPhone.xcodeproj */;
+					ProductGroup = F73A0DFF2A02A694005E217A /* Products */;
+					ProjectRef = F73A0DFE2A02A694005E217A /* Unity-iPhone.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -192,25 +192,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		F7AF097E29EFC15A008150B6 /* ARDesignDemos.app */ = {
+		F73A0E052A02A694005E217A /* ARDesignDemos.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = ARDesignDemos.app;
-			remoteRef = F7AF097D29EFC15A008150B6 /* PBXContainerItemProxy */;
+			remoteRef = F73A0E042A02A694005E217A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		F7AF098029EFC15A008150B6 /* Unity-iPhone Tests.xctest */ = {
+		F73A0E072A02A694005E217A /* Unity-iPhone Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "Unity-iPhone Tests.xctest";
-			remoteRef = F7AF097F29EFC15A008150B6 /* PBXContainerItemProxy */;
+			remoteRef = F73A0E062A02A694005E217A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		F7AF098229EFC15A008150B6 /* UnityFramework.framework */ = {
+		F73A0E092A02A694005E217A /* UnityFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = UnityFramework.framework;
-			remoteRef = F7AF098129EFC15A008150B6 /* PBXContainerItemProxy */;
+			remoteRef = F73A0E082A02A694005E217A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -382,7 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HM3F645KVK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IQUIIARDemo/Info.plist;
@@ -392,6 +392,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,6 +406,9 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iquii.ardemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -417,7 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = HM3F645KVK;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IQUIIARDemo/Info.plist;
@@ -427,6 +431,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,6 +445,9 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iquii.ardemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
